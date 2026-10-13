@@ -1,0 +1,13 @@
+title: "[Setup] "
+body:
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your setup
+      description: The reading profile, colours, fonts, voices or tools that work for you. Screenshots are welcome with a short description of what they show.
+    validations:
+      required: true
+  - type: textarea
+    id: lessons
+    attributes:
+      label: What helps most

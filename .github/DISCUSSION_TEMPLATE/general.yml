@@ -1,0 +1,8 @@
+body:
+  - type: textarea
+    id: message
+    attributes:
+      label: What's on your mind
+      description: Introductions, how you read and study, questions about where Zacess is going or anything else. There is no need to share anything personal.
+    validations:
+      required: true

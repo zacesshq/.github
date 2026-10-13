@@ -1,0 +1,32 @@
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: part
+    attributes:
+      label: Part of Zacess
+      options:
+        - Browser version
+        - Reading profiles and themes
+        - Opening files and text recognition
+        - Read aloud
+        - Exports
+        - Lectures and capture
+        - Study tools
+        - The apps
+        - Website or documentation
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would make reading, listening or studying easier?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Who it helps
+      description: The barrier it removes and the situations where it matters. You never need to share a diagnosis.

@@ -1,0 +1,34 @@
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: dropdown
+    id: part
+    attributes:
+      label: Part of Zacess
+      options:
+        - Browser version
+        - Reading profiles and themes
+        - Opening files and text recognition
+        - Read aloud
+        - Exports
+        - Building or contributing
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Device and browser
+      description: Helps when the answer depends on them. Add any assistive technology you use if it is relevant.
+      placeholder: iPhone 15 with Safari and VoiceOver
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you tried
+      description: Steps you already took. Please leave out personal details and never attach a file you are not allowed to share.

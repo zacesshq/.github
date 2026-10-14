@@ -7,7 +7,7 @@
 
 **Make every page accessible.** A free, open-source reader that turns study material into notes in your own reading profile.
 
-[Website](https://zacess.com) · [Discussions](https://github.com/zacesshq/.github/discussions) · [Code](https://github.com/zacesshq/zacess) · [Contributing](https://github.com/zacesshq/.github/blob/main/CONTRIBUTING.md)
+[Website](https://zacess.com) · [Try it](https://app.zacess.com) · [Code themes](https://zacess.com/themes/) · [Discussions](https://github.com/zacesshq/.github/discussions) · [Code](https://github.com/zacesshq/zacess) · [Contributing](https://github.com/zacesshq/.github/blob/main/CONTRIBUTING.md)
 
 </div>
 
@@ -61,15 +61,20 @@ Every file becomes one document model. Text is taken from the file where it has 
 ## Where it stands
 
 > [!NOTE]
-> Zacess is pre-release and nothing is ready to install yet. The Rust core is built and tested: import with OCR, the reading model, reading profiles, accessible exports, the local library, sync rules, the lecture capture core, study tools, bilingual reading and universal capture. The screens that put it in people's hands come next.
+> Zacess is pre-release. An early browser version is open at [app.zacess.com](https://app.zacess.com): it opens PDFs, photos, Word files, web pages and text. It shows them in a reading profile, reads them aloud and exports HTML and EPUB 3, all in the browser with no upload and no account. The Rust core also holds the library, sync rules, lecture capture, study tools, bilingual reading and universal capture, which get their screens in later releases.
 
-| Step | What it covers |
-| --- | --- |
-| Website | zacess.com with what Zacess is, how to follow along and the accessibility statement |
-| Browser version | The core compiled to WebAssembly with pdf.js and tesseract.js, so everything runs on the device with no upload |
-| Apps | Tauri apps for Windows, macOS, Linux, iOS and Android around the same core |
+| Step | Status | What it covers |
+| --- | --- | --- |
+| Website | Live | [zacess.com](https://zacess.com) with what Zacess is, the roadmap and the accessibility statement |
+| Code themes | Live | The four contrast themes for editors and terminals, see below |
+| Browser version | Early version live | The core compiled to WebAssembly with pdf.js, Tesseract and mammoth, so everything runs on the device |
+| Apps | Later | Tauri apps for Windows, macOS, Linux, iOS and Android around the same core |
 
 Every phase is meant to be useful on its own. Each one is tested with people who have different access needs before it ships.
+
+## Code themes
+
+The reader's four contrast themes (Light, Dark, Yellow on Black and Cream) are also code themes, generated from one palette with every text and syntax colour at 7:1 or more and checked under three kinds of colour blindness. They are on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=zacess.zacess-themes), [Open VSX](https://open-vsx.org/extension/zacess/zacess-themes) and the [Obsidian community directory](https://community.obsidian.md/themes/zacess). Neovim installs them from [zacess.nvim](https://github.com/zacesshq/zacess.nvim). JetBrains IDEs, Zed, Sublime Text, Helix, Emacs and five terminals are covered in [themes](https://github.com/zacesshq/themes). Try each one on 20 languages on the [code themes page](https://zacess.com/themes/).
 
 ## Built with
 
@@ -99,27 +104,31 @@ Every phase is meant to be useful on its own. Each one is tested with people who
 | --- | --- |
 | Core engine | Rust, compiled to WebAssembly for browsers and to native code for every operating system |
 | Apps | Tauri 2 for Windows, macOS, Linux, iOS and Android |
-| Interface | TypeScript web interface rendered as real HTML, so screen readers and braille displays work with it |
+| Interface | TypeScript and React with Radix, rendered as real HTML so screen readers and braille displays work with it |
 | Library | SQLite on the device |
 | Sync | Local-first CRDT sync (Automerge or Yjs) |
 | Voices | System voices and Piper, both on the device |
 | Server (later) | Rust (Axum) with PostgreSQL |
 | Heavy processing (paid tier, later) | Python workers |
-| Hosting | Cloudflare Pages, R2 and Workers |
+| Hosting | Cloudflare Workers static assets, with R2 later |
 | Translations | Crowdin for the interface |
 
 ## Repositories
 
 | Repository | What it is |
 | --- | --- |
-| [zacess](https://github.com/zacesshq/zacess) | The code, under AGPL-3.0. Development moves here with the first release |
+| [zacess](https://github.com/zacesshq/zacess) | The code under AGPL-3.0: the Rust core, the quality suite and the browser app. All development happens here |
+| [website](https://github.com/zacesshq/website) | The site at [zacess.com](https://zacess.com) |
+| [themes](https://github.com/zacesshq/themes) | The four contrast themes as code themes for editors and terminals, under MIT |
+| [core](https://github.com/zacesshq/core), [quality](https://github.com/zacesshq/quality) and [app](https://github.com/zacesshq/app) | Read-only copies of each part, published from `zacess` |
+| [obsidian-theme](https://github.com/zacesshq/obsidian-theme) and [zacess.nvim](https://github.com/zacesshq/zacess.nvim) | Read-only copies of the Obsidian theme and the Neovim schemes, published from `themes` |
 
-Read-only copies of each part (`core`, `quality`, `app`, `website`, `extension` and `workers`) will be published from `zacess` once development moves there. Issues and pull requests will go to `zacess` and questions to this organisation's Discussions, never to the copies.
+Issues and pull requests go to `zacess` or `themes` and questions to this organisation's Discussions, never to the copies.
 
 ## Get involved
 
 - **Follow along and ask questions:** [Discussions](https://github.com/zacesshq/.github/discussions), with [Announcements](https://github.com/zacesshq/.github/discussions/categories/announcements) for news, [Ideas](https://github.com/zacesshq/.github/discussions/categories/ideas) for suggestions and [Q&A](https://github.com/zacesshq/.github/discussions/categories/q-a) for help
-- **Feedback before the first release:** issues and pull requests on `zacess` open with the first release, so until then please use Discussions or email
+- **Report a problem or suggest a change:** [open an issue on `zacess`](https://github.com/zacesshq/zacess/issues/new/choose). For the code themes use [`themes`](https://github.com/zacesshq/themes/issues/new/choose)
 - **Contributing:** the [contributing guide](https://github.com/zacesshq/.github/blob/main/CONTRIBUTING.md)
 - **Accessibility:** the [accessibility statement](https://github.com/zacesshq/.github/blob/main/ACCESSIBILITY.md). An accessibility problem is a bug
 - **Security:** report vulnerabilities privately through the [security policy](https://github.com/zacesshq/.github/blob/main/SECURITY.md)
@@ -127,4 +136,4 @@ Read-only copies of each part (`core`, `quality`, `app`, `website`, `extension` 
 
 ## Licence
 
-The code is licensed under AGPL-3.0. Anyone who runs a modified version as a service must publish their changes, so the core stays free and open for everyone.
+The code is licensed under AGPL-3.0. Anyone who runs a modified version as a service must publish their changes, so the core stays free and open for everyone. The code themes are under MIT so they can be used anywhere.

@@ -74,7 +74,7 @@ Every phase is meant to be useful on its own. Each one is tested with people who
 
 ## Code themes
 
-The reader's four contrast themes (Light, Dark, Yellow on Black and Cream) are also code themes, generated from one palette with every text and syntax colour at 7:1 or more and checked under three kinds of colour blindness. They are on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=zacess.zacess-themes), [Open VSX](https://open-vsx.org/extension/zacess/zacess-themes) and the [Obsidian community directory](https://community.obsidian.md/themes/zacess). Neovim installs them from [zacess.nvim](https://github.com/zacesshq/zacess.nvim). JetBrains IDEs, Zed, Sublime Text, Helix, Emacs and five terminals are covered in [themes](https://github.com/zacesshq/themes). Try each one on 20 languages on the [code themes page](https://zacess.com/themes/).
+The reader's four contrast themes (Light, Dark, Yellow on Black and Cream) are also code themes, generated from one palette with every text and syntax colour at 7:1 or more and checked under three kinds of colour blindness. They are on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=zacess.zacess-themes), [Open VSX](https://open-vsx.org/extension/zacess/zacess-themes), the [Obsidian community directory](https://community.obsidian.md/themes/zacess) and the [Zed extension store](https://zed.dev/extensions?query=zacess). Neovim installs them from [zacess.nvim](https://github.com/zacesshq/zacess.nvim). JetBrains IDEs, Sublime Text, Helix, Emacs and five terminals are covered in [themes](https://github.com/zacesshq/themes). Try each one on 20 languages on the [code themes page](https://zacess.com/themes/).
 
 ## Built with
 

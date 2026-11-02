@@ -3,6 +3,7 @@
 - **Questions and ideas:** [Discussions](https://github.com/zacesshq/.github/discussions), with [Q&A](https://github.com/zacesshq/.github/discussions/categories/q-a) for help and [Ideas](https://github.com/zacesshq/.github/discussions/categories/ideas) for suggestions
 - **Bugs and feedback:** [Discussions](https://github.com/zacesshq/.github/discussions) or [contact@zacess.com](mailto:contact@zacess.com) until issues open on [zacesshq/zacess](https://github.com/zacesshq/zacess) with the first release
 - **Accessibility barriers:** see [ACCESSIBILITY.md](ACCESSIBILITY.md). An accessibility problem is a bug
+- **Using AI in a contribution:** read the [AI policy](https://github.com/zacesshq/.github/blob/main/AI_POLICY.md) first
 - **Security vulnerabilities:** follow [SECURITY.md](SECURITY.md), never a public post
 - **General enquiries:** [contact@zacess.com](mailto:contact@zacess.com)
 

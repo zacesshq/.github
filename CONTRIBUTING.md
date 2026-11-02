@@ -30,3 +30,7 @@ git commit -s -m "fix: flag a misread minus sign"
 - **The original is the source of truth.** Converted content never replaces the original, which always stays one step away.
 
 The full guide, with local setup and the checks to run, will live in the `zacess` repository.
+
+## Using AI
+
+AI tools are welcome within the [AI policy](https://github.com/zacesshq/.github/blob/main/AI_POLICY.md). **Every pull request must say how AI was used, even when the answer is None.** Write your own issue and pull request titles and descriptions, understand everything you submit and test it before you open it.

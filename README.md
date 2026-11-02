@@ -6,6 +6,7 @@ Organisation-wide files for [Zacess](https://github.com/zacesshq).
 | --- | --- |
 | [`profile/README.md`](profile/README.md) | The organisation profile shown on [github.com/zacesshq](https://github.com/zacesshq) |
 | [`ACCESSIBILITY.md`](ACCESSIBILITY.md) | The accessibility commitments every Zacess repository works to |
+| [`AI_POLICY.md`](AI_POLICY.md) | How AI may and may not be used in contributions to every repository |
 | [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Default code of conduct for every repository without its own |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Default contributing guide and when contributions open |
 | [`SECURITY.md`](SECURITY.md) | Default security policy |

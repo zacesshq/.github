@@ -5,7 +5,7 @@ Zacess keeps people's documents, notes, recordings and reading profiles on their
 ## Reporting a vulnerability
 
 > [!IMPORTANT]
-> Report privately, never in a public issue or discussion. Email [contact@zacess.com](mailto:contact@zacess.com) with details and reproduction steps. Once the code is public in [zacesshq/zacess](https://github.com/zacesshq/zacess), GitHub private vulnerability reporting on that repository is the preferred route.
+> Report privately, never in a public issue or discussion. Email [security@zacess.com](mailto:security@zacess.com) with details and reproduction steps. Once the code is public in [zacesshq/zacess](https://github.com/zacesshq/zacess), GitHub private vulnerability reporting on that repository is the preferred route.
 
 ## Supported versions
 

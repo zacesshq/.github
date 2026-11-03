@@ -7,7 +7,7 @@
 
 **Make every page accessible.** A free, open-source reader that turns study material into notes in your own reading profile, plus code themes, terminal scenes and games in the same contrast-checked colours.
 
-[Website](https://zacess.com) · [Try it](https://app.zacess.com) · [Code themes](https://zacess.com/themes/) · [Scenes](https://zacess.com/scenes/) · [Games](https://zacess.com/games/) · [Discussions](https://github.com/zacesshq/.github/discussions) · [Code](https://github.com/zacesshq/zacess) · [Contributing](https://github.com/zacesshq/.github/blob/main/CONTRIBUTING.md)
+[Website](https://zacess.com) · [Try it](https://app.zacess.com) · [Code themes](https://zacess.com/themes/) · [Scenes](https://zacess.com/scenes/) · [Games](https://zacess.com/games/) · [Discussions](https://github.com/orgs/zacesshq/discussions) · [Code](https://github.com/zacesshq/zacess) · [Contributing](https://github.com/zacesshq/.github/blob/main/CONTRIBUTING.md)
 
 </div>
 
@@ -158,7 +158,7 @@ Issues and pull requests go to `zacess` or `themes` and questions to this organi
 
 ## Get involved
 
-- **Follow along and ask questions:** [Discussions](https://github.com/zacesshq/.github/discussions), with [Announcements](https://github.com/zacesshq/.github/discussions/categories/announcements) for news, [Ideas](https://github.com/zacesshq/.github/discussions/categories/ideas) for suggestions and [Q&A](https://github.com/zacesshq/.github/discussions/categories/q-a) for help
+- **Follow along and ask questions:** [Discussions](https://github.com/orgs/zacesshq/discussions), with [Announcements](https://github.com/orgs/zacesshq/discussions/categories/announcements) for news, [Ideas](https://github.com/orgs/zacesshq/discussions/categories/ideas) for suggestions and [Q&A](https://github.com/orgs/zacesshq/discussions/categories/q-a) for help
 - **Report a problem or suggest a change:** [open an issue on `zacess`](https://github.com/zacesshq/zacess/issues/new/choose). For the code themes use [`themes`](https://github.com/zacesshq/themes/issues/new/choose), for Scenes [`scenes`](https://github.com/zacesshq/scenes/issues/new/choose) and for Games [`games`](https://github.com/zacesshq/games/issues/new/choose)
 - **Contributing:** the [contributing guide](https://github.com/zacesshq/.github/blob/main/CONTRIBUTING.md)
 - **Accessibility:** the [accessibility statement](https://github.com/zacesshq/.github/blob/main/ACCESSIBILITY.md). An accessibility problem is a bug

@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Questions and feedback
-    url: https://github.com/zacesshq/.github/discussions
+    url: https://github.com/orgs/zacesshq/discussions
     about: Zacess is pre-release and issues open with the first release. Until then, questions, ideas and feedback go to Discussions.
   - name: Report a vulnerability
     url: https://github.com/zacesshq/.github/blob/main/SECURITY.md

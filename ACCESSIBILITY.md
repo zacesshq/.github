@@ -29,4 +29,4 @@ Zacess is pre-release. A conformance report listing supported assistive technolo
 
 ## Reporting a barrier
 
-If anything in Zacess or its documentation is hard to read or use, tell us in [Discussions](https://github.com/zacesshq/.github/discussions) or at [contact@zacess.com](mailto:contact@zacess.com). Once issues open on [zacesshq/zacess](https://github.com/zacesshq/zacess), use the `accessibility` label there. Please say what you were trying to do, the assistive technology you use and what went wrong. Accessibility problems are treated as bugs.
+If anything in Zacess or its documentation is hard to read or use, tell us in [Discussions](https://github.com/orgs/zacesshq/discussions) or at [contact@zacess.com](mailto:contact@zacess.com). Once issues open on [zacesshq/zacess](https://github.com/zacesshq/zacess), use the `accessibility` label there. Please say what you were trying to do, the assistive technology you use and what went wrong. Accessibility problems are treated as bugs.

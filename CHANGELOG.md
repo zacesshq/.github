@@ -13,7 +13,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
+- `PRIVACY.md`: what the apps store, what the website records and the rules for any future cloud feature, linked from the README and SUPPORT.md.
 - Discussion forms for General, Ideas, Q&A and Show and tell.
+
+### Fixed
+
+- The Discussions links on the organisation profile and in the organisation files point at the organisation's Discussions address, as the website does.
 
 ## 2026-10-13
 

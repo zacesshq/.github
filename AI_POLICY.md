@@ -55,6 +55,6 @@ Choose None. Everything else stays the same: the same checks and reviews apply.
 
 ## Questions and contact
 
-- **Questions:** ask in [Discussions](https://github.com/zacesshq/.github/discussions). The [support page](https://github.com/zacesshq/.github/blob/main/SUPPORT.md) lists every other way to get help.
+- **Questions:** ask in [Discussions](https://github.com/orgs/zacesshq/discussions). The [support page](https://github.com/zacesshq/.github/blob/main/SUPPORT.md) lists every other way to get help.
 - **Anything private:** email contact@zacess.com if something here is unclear or you have a question this policy does not answer.
 - **Security problems** never go in a public issue or discussion. Follow the [security policy](https://github.com/zacesshq/.github/blob/main/SECURITY.md) or email security@zacess.com.

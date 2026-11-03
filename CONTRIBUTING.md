@@ -3,7 +3,7 @@
 Thank you for helping make reading accessible.
 
 > [!IMPORTANT]
-> Zacess is pre-release. Issues and pull requests on [zacesshq/zacess](https://github.com/zacesshq/zacess) open with the first release. Until then, ideas, questions and feedback are welcome in [Discussions](https://github.com/zacesshq/.github/discussions) or by email to [contact@zacess.com](mailto:contact@zacess.com).
+> Zacess is pre-release. Issues and pull requests on [zacesshq/zacess](https://github.com/zacesshq/zacess) open with the first release. Until then, ideas, questions and feedback are welcome in [Discussions](https://github.com/orgs/zacesshq/discussions) or by email to [contact@zacess.com](mailto:contact@zacess.com).
 
 ## Once contributions open
 

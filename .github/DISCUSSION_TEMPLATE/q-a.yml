@@ -11,6 +11,10 @@ body:
         - Opening files and text recognition
         - Read aloud
         - Exports
+        - Accessibility profile
+        - Code themes
+        - Terminal scenes
+        - Terminal games
         - Building or contributing
         - Not sure
     validations:

@@ -50,7 +50,7 @@ Every file becomes one document model. Text is taken from the file where it has 
 
 - **Import what you need to read.** PDFs and images, with OCR on the device for pages that have no text layer.
 - **OCR you can check.** Low-confidence words, numbers and symbols are highlighted, with a stricter threshold for numbers, operators and units.
-- **Reading profiles.** Presets for low vision, dyslexia, reduced visual clutter and screen readers, plus fine control of spacing, column width and contrast. Every contrast theme meets WCAG AAA. Settings never change silently.
+- **Reading profiles.** Presets for low vision, dyslexia, reduced visual clutter, screen readers and a gentle warm reading view, plus fine control of spacing, column width and contrast. Every contrast theme meets WCAG AAA. Settings never change silently.
 - **Accessible exports.** Standalone HTML, EPUB 3 and braille-ready output, with equations kept as MathML.
 - **A library you can trust.** Autosave, version history, a bin that keeps deleted items for 30 days and a full export in open formats.
 - **Lecture capture.** Slide and whiteboard capture that skips repeats, recording, transcription on the device and one timeline for slides, audio, transcript and notes.
@@ -66,9 +66,9 @@ Every file becomes one document model. Text is taken from the file where it has 
 | Step | Status | What it covers |
 | --- | --- | --- |
 | Website | Live | [zacess.com](https://zacess.com) with what Zacess is, the roadmap and the accessibility statement |
-| Code themes | Live | The eight contrast themes for ten editors and eight terminals, see below |
-| Terminal scenes | Live | Zacess Scenes 0.5.1, see below |
-| Terminal games | Live | Zacess Games 0.2.0, see below |
+| Code themes | Live | Ten code themes, the eight contrast themes plus the gentler Warm pair, for ten editors and eight terminals, see below |
+| Terminal scenes | Live | Zacess Scenes 1.1.0, see below |
+| Terminal games | Live | Zacess Games 1.1.0, see below |
 | Browser version | Early version live | The core compiled to WebAssembly with pdf.js, Tesseract and mammoth, so everything runs on the device |
 | Apps | Later | Tauri apps for Windows, macOS, Linux, iOS and Android around the same core |
 
@@ -76,11 +76,11 @@ Every phase is meant to be useful on its own. Each one is tested with people who
 
 ## Code themes
 
-The reader's contrast themes are also eight code themes (Deep Contrast Dark and Light, High Contrast Dark and Light, Dark, Light, Yellow on Black and Cream), generated from one palette with every text and syntax colour at 7:1 or more and checked under three kinds of colour blindness. They are on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=zacess.zacess-themes), [Open VSX](https://open-vsx.org/extension/zacess/zacess-themes), the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/35082-zacess-themes), the [Obsidian community directory](https://community.obsidian.md/themes/zacess) and the [Zed extension store](https://zed.dev/extensions?query=zacess). Neovim installs them from [zacess.nvim](https://github.com/zacesshq/zacess.nvim). Sublime Text, Helix, Emacs and five terminals are covered in [themes](https://github.com/zacesshq/themes). Try each one on 20 languages on the [code themes page](https://zacess.com/themes/).
+The reader's ten contrast themes are also ten code themes. Eight (Deep Contrast Dark and Light, High Contrast Dark and Light, Dark, Light, Yellow on Black and Cream) keep every text and syntax colour at 7:1 or more. Warm Dark and Warm Light are the gentler pair for anyone who finds high contrast too intense: body text at about 12:1 in warm, earthy colours, with every text and syntax colour held to a 4.5:1 floor. All ten come from one palette and are checked under three kinds of colour blindness. They are on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=zacess.zacess-themes), [Open VSX](https://open-vsx.org/extension/zacess/zacess-themes), the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/35082-zacess-themes), the [Obsidian community directory](https://community.obsidian.md/themes/zacess) and the [Zed extension store](https://zed.dev/extensions?query=zacess). Neovim installs them from [zacess.nvim](https://github.com/zacesshq/zacess.nvim). Sublime Text, Helix, Emacs and five terminals are covered in [themes](https://github.com/zacesshq/themes). Try each one on 20 languages on the [code themes page](https://zacess.com/themes/).
 
 ## Terminal scenes and games
 
-[Zacess Scenes](https://zacess.com/scenes/) draws 39 calm scenes in the terminal in any of the eight themes, with no flashing and a pause key. Watch mode follows a Rust build and follow mode reacts to every command in a shell, calm while things work and stormy when one fails. [Zacess Games](https://zacess.com/games/) is fourteen original terminal games built on Scenes, each with its own sound and music, including Learn to Code with 287 levels across fifteen tracks. Extra levels and scenes can be written in Lua without building anything.
+[Zacess Scenes](https://zacess.com/scenes/) draws 65 scenes in the terminal as pixel art in any of the ten themes, with no flashing and a pause key. Watch mode follows a Rust build and follow mode reacts to every command in a shell, calm while things work and stormy when one fails. [Zacess Games](https://zacess.com/games/) is fourteen original terminal games built on Scenes, each with its own sound, music and an optional background sound, including Learn to Code with 287 levels across fifteen tracks. Extra levels and scenes can be written in Lua without building anything.
 
 ## How it has grown
 
@@ -92,6 +92,10 @@ The reader's contrast themes are also eight code themes (Deep Contrast Dark and 
 | 29 October 2026 | Code themes 0.6.1 with eight themes, plus Zacess Games 0.1.0 and 0.2.0 |
 | 30 October 2026 | Scenes 0.5.0 with follow mode |
 | 1 November 2026 | Scenes 0.5.1, keeping follow mode running on Windows |
+| 3 November 2026 | Scenes 0.6.0 and Games 0.3.0 |
+| 4 November 2026 | Games 0.4.0 with Homebrew and winget packages |
+| 5 November 2026 | Zacess Profile 0.1.0 (one accessibility profile for every terminal and editor) plus code themes 0.12.1 |
+| 8 November 2026 | Version 1.0.0 of the code themes and Profile, 1.1.0 of Scenes and Games and 0.2.0 of the reader: ten themes with the gentler Warm pair, 65 scenes drawn as pixel art, ten background sounds and a studio on [zacess.com](https://zacess.com/studio/) to try every theme, scene, game and starter profile with sound |
 
 ## Where it is going
 
@@ -147,10 +151,11 @@ Alongside them come the apps for Windows, macOS, Linux, iOS and Android, an inte
 | Repository | What it is |
 | --- | --- |
 | [zacess](https://github.com/zacesshq/zacess) | The code under AGPL-3.0: the Rust core, the quality suite and the browser app. All development happens here |
-| [website](https://github.com/zacesshq/website) | The site at [zacess.com](https://zacess.com) |
-| [themes](https://github.com/zacesshq/themes) | The eight contrast themes as code themes for editors and terminals, under MIT |
+| [website](https://github.com/zacesshq/website) | The site at [zacess.com](https://zacess.com), with a [studio](https://zacess.com/studio/) to try every theme, scene, game and starter profile |
+| [themes](https://github.com/zacesshq/themes) | The ten code themes for editors and terminals, the eight contrast themes plus the gentler Warm pair, under MIT |
 | [scenes](https://github.com/zacesshq/scenes) | Zacess Scenes, calm terminal scenes in the same palette |
 | [games](https://github.com/zacesshq/games) | Zacess Games, original terminal games with sound and music |
+| [profile](https://github.com/zacesshq/profile) | Zacess Profile, the `zprf` command and browser extension that write one accessibility profile into every terminal, editor and web page |
 | [core](https://github.com/zacesshq/core), [quality](https://github.com/zacesshq/quality) and [app](https://github.com/zacesshq/app) | Read-only copies of each part, published from `zacess` |
 | [obsidian-theme](https://github.com/zacesshq/obsidian-theme) and [zacess.nvim](https://github.com/zacesshq/zacess.nvim) | Read-only copies of the Obsidian theme and the Neovim schemes, published from `themes` |
 
@@ -159,10 +164,11 @@ Issues and pull requests go to `zacess` or `themes` and questions to this organi
 ## Get involved
 
 - **Follow along and ask questions:** [Discussions](https://github.com/orgs/zacesshq/discussions), with [Announcements](https://github.com/orgs/zacesshq/discussions/categories/announcements) for news, [Ideas](https://github.com/orgs/zacesshq/discussions/categories/ideas) for suggestions and [Q&A](https://github.com/orgs/zacesshq/discussions/categories/q-a) for help
-- **Report a problem or suggest a change:** [open an issue on `zacess`](https://github.com/zacesshq/zacess/issues/new/choose). For the code themes use [`themes`](https://github.com/zacesshq/themes/issues/new/choose), for Scenes [`scenes`](https://github.com/zacesshq/scenes/issues/new/choose) and for Games [`games`](https://github.com/zacesshq/games/issues/new/choose)
+- **Report a problem or suggest a change:** [open an issue on `zacess`](https://github.com/zacesshq/zacess/issues/new/choose). For the code themes use [`themes`](https://github.com/zacesshq/themes/issues/new/choose), for Scenes [`scenes`](https://github.com/zacesshq/scenes/issues/new/choose), for Games [`games`](https://github.com/zacesshq/games/issues/new/choose) and for Profile [`profile`](https://github.com/zacesshq/profile/issues/new/choose)
 - **Contributing:** the [contributing guide](https://github.com/zacesshq/.github/blob/main/CONTRIBUTING.md)
 - **Accessibility:** the [accessibility statement](https://github.com/zacesshq/.github/blob/main/ACCESSIBILITY.md). An accessibility problem is a bug
 - **Security:** report vulnerabilities privately through the [security policy](https://github.com/zacesshq/.github/blob/main/SECURITY.md)
+- **Help with a product:** [support@zacess.com](mailto:support@zacess.com)
 - **Contact:** [contact@zacess.com](mailto:contact@zacess.com)
 
 ## Licence

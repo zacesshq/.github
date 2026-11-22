@@ -115,7 +115,7 @@ Alongside them come the apps for Windows, macOS, Linux, iOS and Android, an inte
 
 ### Languages
 
-| <img src="https://cdn.simpleicons.org/rust/000000/ffffff" alt="Rust" width="60"> | <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="60"> | <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="60"> |
+| <img src="https://cdn.simpleicons.org/rust/000000/ffffff" alt="Rust" width="60"> | <img src="https://cdn.jsdelivr.net/gh/qkrdmstlr3/techstack-generator@1a8656741692dfe08effc82600f4d0d4bb87d420/static/ts-icon.svg" alt="TypeScript" width="60"> | <img src="https://cdn.jsdelivr.net/gh/qkrdmstlr3/techstack-generator@1a8656741692dfe08effc82600f4d0d4bb87d420/static/python-icon.svg" alt="Python" width="60"> |
 | :---: | :---: | :---: |
 | **Rust** | **TypeScript** | **Python** |
 
